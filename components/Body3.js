@@ -1,6 +1,6 @@
 export default function Body3() {
     return (
-    <section className="grid grid-cols-1 md:grid-cols-2 overflow-hidden font-barlow">
+    <section className="grid grid-cols-1 md:grid-cols-2 overflow-hidden font-barlow relative bottom-2">
         <div data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
@@ -12,7 +12,7 @@ export default function Body3() {
         <div className="bg-cover w-full h-full bg-center flex justify-center items-center text-graphic-design bg-graphic-design-mobile" style={{ height: "570px" }}>
             <div className="relative top-40 text-center px-10 md:px-48">
                 <p className="text-2xl font-Fraunces font-black">Graphic Design</p>
-                <p className="pt-5 text-md">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+                <p className="pt-5 text-md">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients&apos; attention.</p>
             </div>
         </div>
         </div>
@@ -28,7 +28,7 @@ export default function Body3() {
             <div className="bg-cover w-full h-full bg-center hidden md:flex justify-center items-center text-graphic-design bg-graphic-design-dekstop" style={{ height: "570px" }}>
                 <div className="relative top-40 text-center px-10 md:px-20 lg:px-32 xl:px-48">
                     <p className="text-2xl font-Fraunces font-black">Graphic Design</p>
-                    <p className="pt-5 text-md">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
+                    <p className="pt-5 text-md">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients&apos; attention.</p>
                 </div>
             </div>
         </div>

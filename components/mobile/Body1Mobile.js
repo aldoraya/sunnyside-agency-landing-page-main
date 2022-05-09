@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import Link from "next/link"
+import Image from "next/image"
 
 export default function Body1Mobile() {
     return (
@@ -10,8 +11,13 @@ export default function Body1Mobile() {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="center" className="w-full h-full">
-            <img className="block md:hidden" src="/image-transform-mobile.jpg"/>
+            data-aos-anchor-placement="center" className="block md:hidden">
+            <Image 
+            src="/image-transform-mobile.jpg"
+            alt="image-transform-mobile"
+            width={750}
+            height={624}
+            />
         </div>
         <div className="w-full h-full px-8 py-14">
             <div className="text-black text-center text-5xl font-Fraunces font-black">
@@ -22,12 +28,14 @@ export default function Body1Mobile() {
                 <p>We are a full-service creative agency specializing in helping brands grow fast. Eangage your clients through compeling visuals that do most of the marketing for you.</p>
             </div>
             <div className="text-black text-center">
-            <a href="/" className="font-black font-['Fraunces'] tracking-wider text-lg">
-            LEARN MORE
-            <div className='flex flex-1 justify-center'>
-            <nav className="w-36 h-2 rounded-2xl opacity-30 relative bottom-2 bg-learn-yellow hover:opacity-60"></nav>
-            </div>
-            </a>
+            <Link href="/" className="font-black font-Fraunces tracking-wider text-lg">
+                <a>
+                LEARN MORE
+                    <div className="flex flex-1 justify-center">
+                        <nav className="w-36 h-2 rounded-2xl opacity-30 relative bottom-2 bg-learn-yellow hover:opacity-60"></nav>
+                    </div>      
+                </a>
+            </Link>
           
             <div className="flex flex-1 justify-center">
                 <nav className="w-32 h-2 rounded-2xl opacity-30 relative bottom-2 bg-yellow"></nav>

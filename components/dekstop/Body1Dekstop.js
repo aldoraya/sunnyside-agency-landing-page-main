@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import Link from "next/link"
+import Image from "next/image"
 
 export default function Body1Dekstop () {
     return (
@@ -14,10 +15,12 @@ export default function Body1Dekstop () {
                 <p>compeling visuals that do most of the marketing for you.</p>
             </div>
             <div className="text-black">
-                <a href="/" className="font-black font-Fraunces tracking-wider md:text-md xl:text-xl">
-              LEARN MORE
-                <nav className="w-36 h-2 rounded-2xl opacity-30 relative bottom-2 bg-learn-yellow hover:opacity-60"></nav>
-                </a>
+                <Link href="/" >
+                    <a className="font-black font-Fraunces tracking-wider md:text-md xl:text-xl">
+                        LEARN MORE
+                        <nav className="w-36 h-2 rounded-2xl opacity-30 relative bottom-2 bg-learn-yellow hover:opacity-60"></nav>
+                    </a>
+                </Link>
             </div>
         </div>
         <div data-aos="fade-left"
@@ -28,7 +31,12 @@ export default function Body1Dekstop () {
         data-aos-mirror="true"
         data-aos-once="false"
         data-aos-anchor-placement="center">
-        <img src="/image-transform-dekstop.jpg" className="w-full h-full" />
+        <Image
+        src="/image-transform-dekstop.jpg"
+        alt="image-transform-dekstop"
+        width={720}
+        height={600}
+         />
         </div>
     </section>
     )

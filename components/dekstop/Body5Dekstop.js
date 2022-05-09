@@ -1,6 +1,8 @@
+import Image from "next/image"
+
 export default function Body5Dekstop() {
     return (
-    <section className="w-full h-full hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 overflow-hidden">
+    <section className="w-full h-full hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative top-2 overflow-hidden">
         <div data-aos="fade-right"
             data-aos-offset="200"
             data-aos-delay="50"
@@ -9,7 +11,12 @@ export default function Body5Dekstop() {
             data-aos-mirror="true"
             data-aos-once="false"
             data-aos-anchor-placement="center">
-            <img src="/image-gallery-milkbottles-dekstop.jpg"/>
+            <Image
+             src="/image-gallery-milkbottles-dekstop.jpg"
+             alt="image-gallery-milkbottles-dekstop"
+             width={720}
+             height={894}
+             />
         </div>
         <div data-aos="fade-right"
             data-aos-offset="200"
@@ -19,7 +26,12 @@ export default function Body5Dekstop() {
             data-aos-mirror="true"
             data-aos-once="false"
             data-aos-anchor-placement="center">
-            <img src="/image-gallery-orange-dekstop.jpg"/>
+            <Image
+             src="/image-gallery-orange-dekstop.jpg"
+             alt="image-gallery-orange-dekstop"
+             width={720}
+             height={894}
+             />
         </div>
         <div data-aos="fade-left"
             data-aos-offset="200"
@@ -29,7 +41,11 @@ export default function Body5Dekstop() {
             data-aos-mirror="true"
             data-aos-once="false"
             data-aos-anchor-placement="center">
-            <img src="/image-gallery-cone-dekstop.jpg"/>
+            <Image src="/image-gallery-cone-dekstop.jpg"
+            alt="image-gallery-cone-dekstop.jpg"
+            width={720}
+            height={894}
+            />
         </div>
         <div data-aos="fade-left"
             data-aos-offset="200"
@@ -39,7 +55,12 @@ export default function Body5Dekstop() {
             data-aos-mirror="true"
             data-aos-once="false"
             data-aos-anchor-placement="center">
-            <img src="/image-gallery-sugarcubes-dekstop.jpg"/>
+            <Image 
+            src="/image-gallery-sugarcubes-dekstop.jpg"
+            alt="image-gallery-sugarcubes-dekstop"
+            width={720}
+            height={894}
+            />
         </div>
     </section>
     )
