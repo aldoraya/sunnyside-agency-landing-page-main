@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile](./readme-img/screenshot-hero-mobile.PNG)
-![dekstop](./readme-img/screenshot-hero-dekstop.PNG)
+![mobile](./README-img/screenshot-hero-dekstop.png)
+![dekstop](./README-img/screenshot-hero-dekstop.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -46,8 +46,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/sunnysideagencylandingpagemain-with-nextjs-and-tailwindcss-S1cqBT8L5)
+- Live Site URL: [Add live site URL here](https://sunnyside-id.vercel.app/)
 
 ## My process
 

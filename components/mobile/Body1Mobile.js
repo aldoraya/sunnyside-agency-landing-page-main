@@ -28,11 +28,11 @@ export default function Body1Mobile() {
                 <p>We are a full-service creative agency specializing in helping brands grow fast. Eangage your clients through compeling visuals that do most of the marketing for you.</p>
             </div>
             <div className="text-black text-center">
-            <Link href="/" className="font-black font-Fraunces tracking-wider text-lg">
-                <a>
+            <Link href="/">
+                <a className="font-black font-Fraunces tracking-wider text-lg">
                 LEARN MORE
                     <div className="flex flex-1 justify-center">
-                        <nav className="w-36 h-2 rounded-2xl opacity-30 relative bottom-2 bg-learn-yellow hover:opacity-60"></nav>
+                        <nav className="w-32 h-2 rounded-2xl opacity-30 relative bottom-2 bg-learn-yellow hover:opacity-60"></nav>
                     </div>      
                 </a>
             </Link>

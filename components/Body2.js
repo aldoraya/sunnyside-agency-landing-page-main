@@ -48,7 +48,7 @@ export default function Body2() {
             </div>
             <div className="text-black text-center md:text-left">
                 <Link href="/">
-                <a className="font-black font-Fraunces tracking-wider">
+                <a className="font-black font-Fraunces tracking-wider text-lg">
                     LEARN MORE
                     <div className="flex flex-1 justify-center md:block">
                         <nav className="w-32 h-2 rounded-2xl opacity-30 relative bottom-2 bg-learn-soft-red hover:opacity-60"></nav>
